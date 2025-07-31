@@ -4,11 +4,11 @@ import { SidebarData, SidebarData1 } from "./SidebarData.jsx";
 
 const Sidebar = () => {
   return (
-    <div className='bg-color h-100 w-250px p-0 m-0 sidebar'>
+    <div className='bg-color h-100 w-sidebar p-0 m-0 sidebar'>
       <div
         className='pb-4 text-center text-white mt-0 side-heading'
         onClick={() => {
-          window.location.pathname == "/";
+          window.location.pathname = "/";
         }}>
         <h2 className='pt-4 text-center'>RTC S.A</h2>
         <span className=''>Work Force Manager</span>
