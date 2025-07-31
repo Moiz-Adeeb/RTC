@@ -1,0 +1,37 @@
+.sidebar {
+  overflow: hidden;
+}
+
+.side-heading:hover {
+  background-color: rgb(91, 91, 91);
+}
+
+.w-250px {
+  width: 250px;
+}
+
+.list:hover {
+  background-color: rgb(91, 91, 91);
+}
+
+#active {
+  background-color: rgb(91, 91, 91);
+}
+
+#icon {
+  flex: 30%;
+  display: grid;
+  place-items: center;
+}
+
+#title {
+  flex: 70%;
+}
+
+#icon:hover {
+  cursor: pointer;
+}
+
+#title:hover {
+  cursor: pointer;
+}
