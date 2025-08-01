@@ -1,7 +1,15 @@
+.card-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  box-sizing: border-box;
+}
+
 .card-container {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
   box-sizing: border-box;
+  width: 95%;
 }
 
 .card-body {

@@ -1,5 +1,6 @@
 import React from "react";
 import Cards from "./Cards/Cards";
+import Table from "./Table/Table";
 import "./Content.css";
 
 function Content() {
@@ -67,6 +68,8 @@ function Content() {
       </div>
       <br />
       <Cards />
+      <br />
+      <Table />
     </div>
   );
 }

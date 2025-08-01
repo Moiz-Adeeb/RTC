@@ -4,11 +4,11 @@ import { CardsData } from "./CardsData";
 
 const Cards = () => {
   return (
-    <div className='d-flex'>
+    <div className='d-fle card-div'>
       {CardsData.map((val, key) => {
         return (
           <div
-            className='card w-50 m-1 card-container'
+            className='card m-1 card-container'
             key={key}
             style={{ backgroundColor: val.color }}>
             <div className='card-body'>
