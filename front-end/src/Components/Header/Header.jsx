@@ -13,7 +13,7 @@ const Header = () => {
   }, []);
 
   return (
-    <nav className=' header navbar fixed-top bg-body-tertiary border container-fluid w-auto'>
+    <nav className=' header navbar fixed-top bg-body-tertiary border-bottom border-3 container-fluid w-auto'>
       <div className=''>
         <h1 className='navbar-brand ms-3  mb-1 fs-3 pb-0'>Admin Settings</h1>
         <h3 className=' ms-3 mt-0 fs-6 pt-0 fw-normal'>

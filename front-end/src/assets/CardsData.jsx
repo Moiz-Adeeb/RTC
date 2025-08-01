@@ -8,7 +8,7 @@ export const CardsData = [
   {
     title: "Container Loading",
     img: <BentoIcon />,
-    cateogry: "Category: Loading/Unloading",
+    cateogry: "Loading/Unloading",
     required_skills: "Container Handling",
     min_dockers: "4",
     max_dockers: "12",
@@ -22,7 +22,7 @@ export const CardsData = [
   {
     title: "Bulk Handling",
     img: <DragHandleIcon />,
-    cateogry: "Category: Handling",
+    cateogry: "Handling",
     required_skills: "Bulk Operations",
     min_dockers: "6",
     max_dockers: "15",
@@ -36,7 +36,7 @@ export const CardsData = [
   {
     title: "Cargo Storage",
     img: <WarehouseIcon />,
-    cateogry: "Category: Storage",
+    cateogry: "Storage",
     required_skills: "General Labor",
     min_dockers: "2",
     max_dockers: "8",

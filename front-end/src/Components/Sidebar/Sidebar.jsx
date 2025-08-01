@@ -4,9 +4,10 @@ import { SidebarData, SidebarData1 } from "./SidebarData.jsx";
 
 const Sidebar = () => {
   return (
-    <div className='bg-color h-100 w-sidebar p-0 m-0 sidebar'>
+    <div className='bg-light h-100 w-sidebar p-0 m-0 sidebar border-end border-2'>
       <div
-        className='pb-3 text-center text-white mt-0 side-heading border-bottom'
+        id='company'
+        className='pb-3 text-center text-dark mt-0 side-heading border-bottom border-3'
         onClick={() => {
           window.location.pathname = "/";
         }}>
@@ -18,7 +19,7 @@ const Sidebar = () => {
           return (
             <li
               id={window.location.pathname == val.link ? "active" : "inactive"}
-              className='list list-unstyled p-0 w-100 h-25 m-0 d-flex text-white justify-content-center align-items-center '
+              className='list list-unstyled p-0 w-100 h-25 m-0 d-flex text-dark justify-content-center align-items-center '
               key={key}
               onClick={() => {
                 window.location.pathname = val.link;
@@ -34,7 +35,7 @@ const Sidebar = () => {
           return (
             <li
               id={window.location.pathname == val.link ? "active" : "inactive"}
-              className='list list-unstyled p-0 w-100 h-25 m-0 d-flex text-white justify-content-center align-items-center '
+              className='list list-unstyled p-0 w-100 h-25 m-0 d-flex text-dark justify-content-center align-items-center '
               key={key}
               onClick={() => {
                 window.location.pathname = val.link;

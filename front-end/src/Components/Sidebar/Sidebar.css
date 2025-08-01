@@ -5,8 +5,12 @@
   position: fixed;
 }
 
+.side-heading {
+  border-color: black;
+}
+
 .side-heading:hover {
-  background-color: rgb(91, 91, 91);
+  background-color: rgba(91, 91, 91, 0.216);
 }
 
 .w-sidebar {
@@ -14,11 +18,11 @@
 }
 
 .list:hover {
-  background-color: rgb(91, 91, 91);
+  background-color: rgb(91, 91, 91, 0.216);
 }
 
 #active {
-  background-color: rgb(91, 91, 91);
+  background-color: rgb(91, 91, 91, 0.216);
 }
 
 #icon {
@@ -37,4 +41,14 @@
 
 #title:hover {
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  #title {
+    display: none;
+  }
+
+  #company span {
+    display: none;
+  }
 }
