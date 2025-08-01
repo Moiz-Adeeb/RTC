@@ -6,7 +6,7 @@ const Sidebar = () => {
   return (
     <div className='bg-color h-100 w-sidebar p-0 m-0 sidebar'>
       <div
-        className='pb-4 text-center text-white mt-0 side-heading'
+        className='pb-3 text-center text-white mt-0 side-heading border-bottom'
         onClick={() => {
           window.location.pathname = "/";
         }}>
