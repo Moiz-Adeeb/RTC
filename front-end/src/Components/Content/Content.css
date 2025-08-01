@@ -22,9 +22,11 @@
 
 #searchbar {
   width: 79.5%;
+  height: 40px;
 }
 
 .category-buttons {
+  height: 35px;
   width: 20%;
 }
 

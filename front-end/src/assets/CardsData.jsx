@@ -17,7 +17,7 @@ export const CardsData = [
     edit: <EditIcon />,
     del: <DeleteIcon />,
     color: "rgba(255, 201, 100, 0.336)",
-    status: "active",
+    status: "Active",
   },
   {
     title: "Bulk Handling",
@@ -31,7 +31,7 @@ export const CardsData = [
     edit: <EditIcon />,
     del: <DeleteIcon />,
     color: "rgba(183, 153, 255, 0.336)",
-    status: "active",
+    status: "Active",
   },
   {
     title: "Cargo Storage",
@@ -45,6 +45,6 @@ export const CardsData = [
     edit: <EditIcon />,
     del: <DeleteIcon />,
     color: "rgba(179, 255, 189, 0.336)",
-    status: "active",
+    status: "Active",
   },
 ];

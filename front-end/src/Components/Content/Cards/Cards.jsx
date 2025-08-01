@@ -40,7 +40,7 @@ const Cards = () => {
             <hr className='ms-4' />
             <hr className='me-4' />
             <button className='active rounded-5 p-0 m-4 mt-0 border-0'>
-              Active
+              {val.status}
             </button>
             <p className='card-text fs-6 fw-semibold text-muted d-flex justify-content-end text-end m-4 mt-0 ms-0'>
               {val.used}

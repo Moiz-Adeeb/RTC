@@ -35,7 +35,11 @@ const Table = () => {
                   <td>{val.cateogry}</td>
                   <td>{val.used}</td>
                   <td>{val.duration}</td>
-                  <td>{val.status}</td>
+                  <td>
+                    <button className='active rounded-5 p-0 m-4 mt-0 border-0'>
+                      {val.status}
+                    </button>
+                  </td>
                   <td>
                     {val.del} {val.edit}
                   </td>
