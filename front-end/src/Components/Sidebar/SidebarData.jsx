@@ -1,26 +1,26 @@
 import React from "react";
-import DashboardIcon from "@mui/icons-material/Dashboard";
-import GroupsIcon from "@mui/icons-material/Groups";
-import PersonIcon from "@mui/icons-material/Person";
-import AssessmentIcon from "@mui/icons-material/Assessment";
-import AdminPanelSettingsIcon from "@mui/icons-material/AdminPanelSettings";
-import BrowseGalleryIcon from "@mui/icons-material/BrowseGallery";
-import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
+import DashboardIcon from "../../assets/Icons/earth-globe.png";
+import GroupsIcon from "../../assets/Icons/multiple-users-silhouette.png";
+import PersonIcon from "../../assets/Icons/insurance.png";
+import AssessmentIcon from "../../assets/Icons/chart-bars.png";
+import AdminPanelSettingsIcon from "../../assets/Icons/building-silhouette.png";
+import BrowseGalleryIcon from "../../assets/Icons/time.png";
+import AttachMoneyIcon from "../../assets/Icons/dollar-symbol.png";
 
 export const SidebarData = [
   {
     title: "Dashboard",
-    icon: <DashboardIcon />,
+    icon: DashboardIcon,
     link: "/dashboard",
   },
   {
     title: "Users",
-    icon: <GroupsIcon />,
+    icon: GroupsIcon,
     link: "/users",
   },
   {
     title: "Roles",
-    icon: <PersonIcon />,
+    icon: PersonIcon,
     link: "/roles",
   },
 ];
@@ -28,22 +28,22 @@ export const SidebarData = [
 export const SidebarData1 = [
   {
     title: "Reports",
-    icon: <AssessmentIcon />,
+    icon: AssessmentIcon,
     link: "/reports",
   },
   {
     title: "Providers",
-    icon: <AdminPanelSettingsIcon />,
+    icon: AdminPanelSettingsIcon,
     link: "/providers",
   },
   {
     title: "Shifts",
-    icon: <BrowseGalleryIcon />,
+    icon: BrowseGalleryIcon,
     link: "/shifts",
   },
   {
     title: "Billing",
-    icon: <AttachMoneyIcon />,
+    icon: AttachMoneyIcon,
     link: "/biling",
   },
 ];

@@ -1,10 +1,37 @@
 .content {
   margin-top: 120px;
-  margin-left: 12.5%;
+  margin-left: 16.5%;
   margin-right: 0.5%;
   height: auto;
   width: auto;
   box-sizing: border-box;
+}
+
+.nav-list {
+  cursor: pointer;
+}
+
+.nav-list:hover {
+  color: black;
+}
+
+.search-btn {
+  border-width: 2px;
+  border-color: #cbced1; /* Example: Bootstrap's default secondary color */
+  color: #6c757d; /* Optional: Set text color to match border */
+}
+
+#icon-content {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+#icon-content-img {
+  place-items: center;
+  justify-content: end;
+  width: 20px;
+  filter: grayscale(100%);
+  filter: opacity(50%);
 }
 
 .dropdown-buttons {

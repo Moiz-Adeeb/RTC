@@ -1,3 +1,6 @@
+.w-sidebar {
+  width: 16%;
+}
 .sidebar {
   overflow: hidden;
   top: 0;
@@ -13,10 +16,6 @@
   background-color: rgba(91, 91, 91, 0.216);
 }
 
-.w-sidebar {
-  width: 12%;
-}
-
 .list:hover {
   background-color: rgb(91, 91, 91, 0.216);
 }
@@ -26,13 +25,24 @@
 }
 
 #icon {
-  flex: 30%;
   display: grid;
-  place-items: center;
+  grid-template-columns: 1fr 7fr;
 }
 
-#title {
-  flex: 70%;
+#icon-img {
+  place-items: center;
+  justify-content: end;
+  width: 20px;
+  filter: grayscale(100%);
+  filter: opacity(50%);
+}
+
+.fs-small {
+  font-size: smaller;
+}
+
+.fs-smaller {
+  font-size: smaller;
 }
 
 #icon:hover {
@@ -43,9 +53,27 @@
   cursor: pointer;
 }
 
+@media (max-width: 1200px) {
+  #title {
+    display: none;
+  }
+
+  #icon {
+    display: flex;
+  }
+
+  #company span {
+    display: none;
+  }
+}
+
 @media (max-width: 768px) {
   #title {
     display: none;
+  }
+
+  #icon {
+    display: flex;
   }
 
   #company span {
