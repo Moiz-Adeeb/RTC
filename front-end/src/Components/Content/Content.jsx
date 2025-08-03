@@ -7,20 +7,34 @@ import "./Content.css";
 function Content() {
   return (
     <div className='content container-fluid w-auto bg-white border rounded'>
-      <ul className='nav-list nav d-flex nav-underline border-bottom'>
+      <ul className='nav-list nav d-flex nav-underline list-unstyled border-bottom'>
         {ContentData.map((val, key) => {
           return (
-            <li key={key} className='nav-item fs-small'>
+            <li
+              key={key}
+              className='nav-item fs-small'
+              onClick={() => {
+                window.location.pathname = val.link;
+              }}>
               <div
                 id='icon-content'
-                className='nav-link text-secondary fw-bold'
-                href='#'>
+                className='nav-link text-secondary fw-bold nav-inactive'>
                 <img
-                  id='icon-content-img'
-                  className='text-end'
+                  id={
+                    window.location.pathname == val.link
+                      ? "nav-active"
+                      : "nav-inactive"
+                  }
+                  className='icon-content-img text-end'
                   src={val.icon}
                 />
-                <div id='div-title' className='fw-semibold p-0 ms-2 text-start'>
+                <div
+                  id={
+                    window.location.pathname == val.link
+                      ? "nav-active"
+                      : "nav-inactive"
+                  }
+                  className='fw-semibold text-secondary p-0 ms-2 text-start'>
                   {val.name}
                 </div>
               </div>

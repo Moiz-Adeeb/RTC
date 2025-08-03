@@ -22,6 +22,7 @@
 
 #active {
   background-color: rgb(91, 91, 91, 0.216);
+  color: black !important;
 }
 
 #icon {
