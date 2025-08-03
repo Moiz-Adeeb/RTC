@@ -9,31 +9,31 @@ export const ContentData = [
   {
     name: "Users",
     icon: GroupsIcon,
-    link: "/users",
+    link: "/dashboard/users",
   },
   {
     name: "Roles",
     icon: PersonIcon,
-    link: "/roles",
+    link: "/dashboard/roles",
   },
   {
     name: "Shifts",
     icon: BrowseGalleryIcon,
-    link: "/shifts",
+    link: "/dashboard/shifts",
   },
   {
     name: "Sites",
     icon: Pin,
-    link: "/sites",
+    link: "/dashboard/sites",
   },
   {
     name: "Tariffs",
     icon: AttachMoneyIcon,
-    link: "/tariffs",
+    link: "/dashboard/tariffs",
   },
   {
     name: "Activity Types",
     icon: List,
-    link: "/activity-types",
+    link: "/dashboard/activity-types",
   },
 ];
